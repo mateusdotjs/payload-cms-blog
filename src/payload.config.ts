@@ -20,6 +20,7 @@ export default buildConfig({
       leaves: ["bold", "code", "italic", "underline"],
     },
   }),
+  cors: "*",
   collections: [Users, Posts],
   localization: {
     locales: ["en", "pt"],
